@@ -62,9 +62,12 @@ export default defineConfig(async () => {
     },
     plugins: [react()],
     server: {
-      port: 5000
+      port: 5000,
+      host: true,
+      strictPort: true
     }
   };
 });
+
 
 
