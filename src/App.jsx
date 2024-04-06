@@ -4,7 +4,7 @@ import { useState, useEffect } from 'react'
 import Form from './components/Form'
 import Post from './components/Post'
 
-const URL = "http://localhost:3000"
+const URL = process.env.REACT_APP_API_URL 
 
 const App = () => {
   const [titulo, setTitulo] = useState('')
