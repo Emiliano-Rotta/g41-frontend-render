@@ -53,7 +53,7 @@ import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
 
 export default defineConfig(async () => {
-  const { VITE_REACT_APP_API_URL, VITE_PORT } = process.env;
+  const { VITE_REACT_APP_API_URL } = process.env;
   return {
     define: {
       'process.env': {
