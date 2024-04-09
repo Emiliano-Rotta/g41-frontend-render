@@ -4,7 +4,7 @@ import { useState, useEffect } from 'react'
 import Form from './components/Form'
 import Post from './components/Post'
 
-const URL = process.env.REACT_APP_API_URL || "https://g41-backend-render.onrender.com"
+const URL = process.env.REACT_APP_API_URL 
 
 const App = () => {
   const [titulo, setTitulo] = useState('')
